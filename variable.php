@@ -1,4 +1,6 @@
 <?php
-$output = 'Hello World';
-echo $output;
+    $people = array('Kelvin', 'Jeremy', 'Sara');
+    echo $people[0];
+
+
 ?>
