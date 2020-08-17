@@ -12,7 +12,12 @@ if (filter_has_var(INPUT_POST, 'submit')) {
 
     if (!empty($email) && !empty($name) && !empty($message)){
         // Passed
-        echo 'PASSED';
+        if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+            $msg = 'Please use valid email';
+            $msgClass = 'alert-danger';
+        } else {
+            echo 'PASSED';
+        }
     } else {
 
         // Failed
