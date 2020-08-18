@@ -1,1 +1,31 @@
 <?php
+// People Array @//TaDO - Get from DB
+$people[] = "Steve";
+$people[] = "John";
+$people[] = "Kathy";
+$people[] = "Evan";
+$people[] = "Anthony";
+$people[] = "Tom";
+$people[] = "Rhonda";
+$people[] = "Hal";
+$people[] = "Ernie";
+$people[] = "Johanna";
+$people[] = "Farrah";
+$people[] = "Linda";
+$people[] = "Shawn";
+$people[] = "Olivia";
+$people[] = "Derek";
+$people[] = "Amanda";
+$people[] = "Rachel";
+$people[] = "Katie";
+$people[] = "Jillian";
+$people[] = "Jose";
+$people[] = "Malcom";
+$people[] = "Greg";
+$people[] = "Mary";
+$people[] = "Brad";
+$people[] = "Mike";
+
+// Get Query String
+
+$q = $_REQUEST['q'];
