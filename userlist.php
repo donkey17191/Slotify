@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css">
     <script>
         function showSuggestion(str) {
-            console.log(str);
+            if (str.length == 0) {
+                document.getElementById('output').innerHTML = '';
+            } else {
+                // AJAX REQ
+            }
 
         }
     </script>
