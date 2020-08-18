@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search User</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css">
+    <script>
+        function showSuggestion(str) {
+            console.log(str);
+
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Search Users</h1>
+        <form action="">
+            Search User: <input type="text" class="form-control" onkeyup="showSuggestion(this.value)">
+
+        </form>
+        <p>Suggesttions: <span id="output" style="font-weight: bold"></span></p>
+        
+    </div>
+
+</body>
+</html>
